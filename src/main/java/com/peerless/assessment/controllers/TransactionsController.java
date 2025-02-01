@@ -4,6 +4,7 @@ import com.peerless.assessment.lib.dto.TransactionRequestDto;
 import com.peerless.assessment.model.Transaction;
 import com.peerless.assessment.services.TransactionsService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
